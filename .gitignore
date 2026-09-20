@@ -1,0 +1,11 @@
+# Datos descargados y artefactos locales
+data/
+artifacts/*
+!artifacts/stage_a_autoencoder.pt
+!artifacts/stage_b_transferencia_mas_anomalía.pt
+tmp/
+
+# Python / Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
